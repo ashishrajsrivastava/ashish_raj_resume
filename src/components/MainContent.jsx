@@ -1,8 +1,9 @@
 import React from 'react';
 import ExperienceItem from './ExperienceItem';
 import ProjectItem from './ProjectItem';
+import Books from './Books';
 
-const MainContent = ({ experience, projects }) => {
+const MainContent = ({ experience, projects, books }) => {
   return (
     <main className="resume-main">
       {/* Experience Section */}
@@ -27,6 +28,9 @@ const MainContent = ({ experience, projects }) => {
           </div>
         </section>
       )}
+
+      {/* Books Section */}
+      <Books books={books} />
 
       {/* Projects Section */}
       {projects && projects.length > 0 && (

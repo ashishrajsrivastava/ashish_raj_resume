@@ -19,42 +19,98 @@
       }
     }
   },
-
   "certifications": [
-    { "type": "azure", "badge": "AZ", "name": "Azure Solutions Architect Expert", "issuer": "Microsoft · AZ-305" },
-    { "type": "azure", "badge": "AZ", "name": "Azure DevOps Engineer Expert",     "issuer": "Microsoft · AZ-400" },
-    { "type": "azure", "badge": "AZ", "name": "Azure Administrator Associate",     "issuer": "Microsoft · AZ-104" },
-    { "type": "azure", "badge": "AZ", "name": "Azure Security Engineer Associate", "issuer": "Microsoft · AZ-500" },
-    { "type": "tf",    "badge": "TF", "name": "HashiCorp Terraform Associate",     "issuer": "HashiCorp" }
+    {
+      "type": "azure",
+      "badge": "AZ",
+      "name": "Azure Solutions Architect Expert",
+      "issuer": "Microsoft · AZ-305"
+    },
+    {
+      "type": "azure",
+      "badge": "AZ",
+      "name": "Azure DevOps Engineer Expert",
+      "issuer": "Microsoft · AZ-400"
+    },
+    {
+      "type": "azure",
+      "badge": "AZ",
+      "name": "Azure Administrator Associate",
+      "issuer": "Microsoft · AZ-104"
+    }
   ],
-
   "skills": [
     {
       "group": "Cloud Architecture",
-      "tags": ["Azure Landing Zones", "Cloud Foundation", "Azure Well-Architected Framework", "Enterprise Architecture", "Cloud Adoption Framework", "FinOps"]
+      "tags": [
+        "Azure Landing Zones",
+        "Cloud Foundation",
+        "Azure Well-Architected Framework",
+        "Enterprise Architecture",
+        "Cloud Adoption Framework",
+        "FinOps"
+      ]
     },
     {
       "group": "Azure Platform",
-      "tags": ["Microsoft Entra ID", "Microsoft Defender for Cloud", "Azure Sentinel (SIEM)", "Azure Policy", "AKS", "Azure Container Apps", "APIM", "Azure Monitor", "Virtual Network", "Express Route", "Azure OpenAI / Foundry"]
+      "tags": [
+        "Microsoft Entra ID",
+        "Microsoft Defender for Cloud",
+        "Azure Sentinel (SIEM)",
+        "Azure Policy",
+        "AKS",
+        "Azure Container Apps",
+        "APIM",
+        "Azure Monitor",
+        "Virtual Network",
+        "Express Route",
+        "Azure OpenAI / Foundry"
+      ]
     },
     {
       "group": "Platform Engineering & DevOps",
-      "tags": ["Terraform", "Azure Bicep", "Azure DevOps", "GitHub / GitHub Actions", "GitOps", "CI/CD Pipelines", "Docker", "Kubernetes"]
+      "tags": [
+        "Terraform",
+        "Azure Bicep",
+        "Azure DevOps",
+        "GitHub / GitHub Actions",
+        "GitOps",
+        "CI/CD Pipelines",
+        "Docker",
+        "Kubernetes"
+      ]
     },
     {
       "group": "Security & Governance",
-      "tags": ["Zero Trust Architecture", "OWASP / DevSecOps", "MS Threat Modeling", "Azure RBAC", "ITIL"]
+      "tags": [
+        "Zero Trust Architecture",
+        "OWASP / DevSecOps",
+        "MS Threat Modeling",
+        "Azure RBAC",
+        "ITIL"
+      ]
     },
     {
       "group": "AI & Data",
-      "tags": ["GenAI Landing Zone", "Microsoft Foundry", "Azure OpenAI", "Azure Databricks", "MLOps", "Power BI"]
+      "tags": [
+        "GenAI Landing Zone",
+        "Microsoft Foundry",
+        "Azure OpenAI",
+        "Azure Databricks",
+        "MLOps",
+        "Power BI"
+      ]
     },
     {
       "group": "Programming & Scripting",
-      "tags": ["PowerShell", "Python", "C# / .NET", "ARM Templates"]
+      "tags": [
+        "PowerShell",
+        "Python",
+        "C# / .NET",
+        "ARM Templates"
+      ]
     }
   ],
-
   "softSkills": [
     "Enterprise Architecture & Roadmap Definition",
     "Stakeholder & Executive Alignment",
@@ -64,19 +120,25 @@
     "Risk Analysis & Business Continuity Planning",
     "People Management & Coaching"
   ],
-
   "education": [
-    { "degree": "Master of Computer Applications",    "school": "IGNOU, India" },
-    { "degree": "Bachelor of Computer Applications",  "school": "IGNOU, India" },
-    { "degree": "Diploma in Computer Engineering",    "school": "Ambedkar Polytechnic, India" }
+    {
+      "degree": "Master of Computer Applications",
+      "school": "IGNOU, India"
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "school": "IGNOU, India"
+    },
+    {
+      "degree": "Diploma in Computer Engineering",
+      "school": "Ambedkar Polytechnic, India"
+    }
   ],
-
   "community": [
     "Microsoft Azure Cloud Leader Group Member",
     "Founder – AzureDevOpsPro, AzureTalk, O365Talk",
     "AzureDevOpsPro YouTube Channel"
   ],
-
   "experience": [
     {
       "id": "powerco",
@@ -206,7 +268,18 @@
       ]
     }
   ],
-
+  "books": [
+    {
+      "title": "Demystifying Azure DevOps Services",
+      "publisher": "BPB Publications",
+      "image": "book1.jpg"
+    },
+    {
+      "title": "Architecting and implementing DevOps for infrastructure management in Azure",
+      "publisher": "Leanpub",
+      "image": "book2.jpg"
+    }
+  ],
   "projects": [
     {
       "name": "Internal Cloud Developer Platform",

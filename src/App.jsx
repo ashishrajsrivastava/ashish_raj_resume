@@ -26,7 +26,7 @@ function App() {
           education={data.education}
           community={data.community}
         />
-        <MainContent experience={data.experience} projects={data.projects} />
+        <MainContent experience={data.experience} projects={data.projects} books={data.books} />
       </div>
     </div>
   );
