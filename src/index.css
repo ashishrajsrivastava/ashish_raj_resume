@@ -644,23 +644,21 @@ ul { list-style: none; }
 
   /* ── Two-column body ── */
   .resume-body {
-    display: flex !important;
-    align-items: flex-start !important;
+    display: grid !important;
+    grid-template-columns: 175px 1fr !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
 
   .resume-sidebar {
-    width: 175px !important;
     background: #1a2543 !important;
     padding: 14px 12px !important;
     box-sizing: border-box !important;
-    flex-shrink: 0 !important;
+    border-right: 1px solid #2e3d5a !important; /* Ensure boundary is clear in PDF */
   }
 
   .resume-main {
-    flex: 1 !important;
     background: #ffffff !important;
     padding: 14px 18px !important;
     box-sizing: border-box !important;
@@ -669,9 +667,13 @@ ul { list-style: none; }
   /* ── Sidebar typography ── */
   .sidebar-section-title {
     font-size: 6.5pt !important;
-    color: #38bdf8 !important;
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #0f3d7a, #0891b2) !important;
+    padding: 3px 8px !important;
+    border-radius: 4px !important;
     letter-spacing: 1px !important;
     margin-bottom: 8px !important;
+    display: inline-block !important;
   }
   .sidebar-section {
     margin-bottom: 12px !important;
@@ -680,8 +682,8 @@ ul { list-style: none; }
     border-radius: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
   }
   .sidebar-section:last-child {
     border-bottom: none !important;
@@ -711,17 +713,28 @@ ul { list-style: none; }
   .cert-issuer { font-size: 6.5pt !important; color: #8898aa !important; }
 
   /* Skill tags */
-  .skill-group { margin-bottom: 7px !important; }
+  .skill-group { 
+    margin-bottom: 7px !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
   .skill-group-title { font-size: 6pt !important; color: #8898aa !important; margin-bottom: 3px !important; }
   .skill-tags { gap: 3px !important; }
   .tag {
     font-size: 5.5pt !important;
-    padding: 1px 4px !important;
-    background: #263354 !important;
-    color: #c8d8f0 !important;
-    border: 1px solid #3a4f72 !important;
-    border-radius: 2px !important;
+    padding: 2px 6px !important;
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #0891b2, #1a56a0) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    display: inline-block !important;
+    line-height: 1.2 !important;
   }
+  /* Restore the alternating gradients in print */
+  .tag:nth-child(4n+1) { background: linear-gradient(135deg, #0891b2, #1a56a0) !important; }
+  .tag:nth-child(4n+2) { background: linear-gradient(135deg, #0284c7, #3b82f6) !important; }
+  .tag:nth-child(4n+3) { background: linear-gradient(135deg, #0d9488, #0284c7) !important; }
+  .tag:nth-child(4n+4) { background: linear-gradient(135deg, #2563eb, #4f46e5) !important; }
 
   /* Soft skills, education, community */
   .soft-skills-list li,
