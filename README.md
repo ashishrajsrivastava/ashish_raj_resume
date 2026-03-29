@@ -1,16 +1,70 @@
-# React + Vite
+# Ashish Raj - Professional React Resume
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive, and visually stunning resume built with **React**, **Vite**, and **Vanilla CSS**. This project features a modern glassmorphic sidebar, dynamic data loading from JSON, and a specialized layout optimized for both web viewing and PDF printing.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Data Rendering**: Powered by a single `resume.json` file for easy updates.
+- **Glassmorphic Sidebar**: A sleek, semi-transparent sidebar with vibrant, high-contrast skill tags and section headings.
+- **Publication Highlights**: A dedicated section for books and publications with image thumbnails.
+- **Print Optimized**: Custom CSS media queries ensure the resume looks perfect when printed to PDF (A4 format).
+- **Interactive UI**: Smooth hover effects, transitions, and a responsive layout for all device sizes.
 
-## React Compiler
+## 🛠️ Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd ashish_raj_resume
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Local Development
+
+Run the development server to see changes in real-time:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+---
+
+## 📦 Deployment
+
+This project is configured for easy deployment to **GitHub Pages**.
+
+### One-Command Deploy
+
+To build the project and push the `dist/` folder to the `gh-pages` branch, simply run:
+
+```bash
+npm run deploy
+```
+
+*Note: This command automatically runs `npm run build` first via the `predeploy` script.*
+
+---
+
+## 📂 Project Structure
+
+- `/src/data/resume.json`: The **Source of Truth**. Update this file to change the resume content.
+- `/src/components/`: Modular React components (Header, Sidebar, MainContent, Books, etc.).
+- `/src/assets/`: Images, icons, and book thumbnails.
+- `/src/index.css`: Centralized design system, glassmorphic tokens, and print styles.
+
+## 📄 License
+
+This project is for personal use as a professional resume template.
