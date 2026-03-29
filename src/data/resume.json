@@ -1,0 +1,232 @@
+{
+  "personal": {
+    "name": "Ashish Raj",
+    "title": "Lead Cloud Architect & Platform Engineering Leader",
+    "summary": "Cloud & DevOps advocate with <strong>15+ years</strong> of experience delivering enterprise Azure platforms, Cloud Foundation architecture, Platform Engineering, GenAI Landing Zones, and secure scalable infrastructure for global organizations. Passionate about bridging technology strategy with business outcomes.",
+    "contact": {
+      "location": "Germany",
+      "linkedin": {
+        "label": "linkedin.com/in/ashishrajsrivastava",
+        "url": "https://www.linkedin.com/in/ashishrajsrivastava"
+      },
+      "github": {
+        "label": "github.com/ashishrajsrivastava",
+        "url": "https://github.com/ashishrajsrivastava"
+      },
+      "youtube": {
+        "label": "AzureDevOpsPro",
+        "url": "https://www.youtube.com/@AzureDevOpsPro"
+      }
+    }
+  },
+
+  "certifications": [
+    { "type": "azure", "badge": "AZ", "name": "Azure Solutions Architect Expert", "issuer": "Microsoft · AZ-305" },
+    { "type": "azure", "badge": "AZ", "name": "Azure DevOps Engineer Expert",     "issuer": "Microsoft · AZ-400" },
+    { "type": "azure", "badge": "AZ", "name": "Azure Administrator Associate",     "issuer": "Microsoft · AZ-104" },
+    { "type": "azure", "badge": "AZ", "name": "Azure Security Engineer Associate", "issuer": "Microsoft · AZ-500" },
+    { "type": "tf",    "badge": "TF", "name": "HashiCorp Terraform Associate",     "issuer": "HashiCorp" }
+  ],
+
+  "skills": [
+    {
+      "group": "Cloud Architecture",
+      "tags": ["Azure Landing Zones", "Cloud Foundation", "Azure Well-Architected Framework", "Enterprise Architecture", "Cloud Adoption Framework", "FinOps"]
+    },
+    {
+      "group": "Azure Platform",
+      "tags": ["Microsoft Entra ID", "Microsoft Defender for Cloud", "Azure Sentinel (SIEM)", "Azure Policy", "AKS", "Azure Container Apps", "APIM", "Azure Monitor", "Virtual Network", "Express Route", "Azure OpenAI / Foundry"]
+    },
+    {
+      "group": "Platform Engineering & DevOps",
+      "tags": ["Terraform", "Azure Bicep", "Azure DevOps", "GitHub / GitHub Actions", "GitOps", "CI/CD Pipelines", "Docker", "Kubernetes"]
+    },
+    {
+      "group": "Security & Governance",
+      "tags": ["Zero Trust Architecture", "OWASP / DevSecOps", "MS Threat Modeling", "Azure RBAC", "ITIL"]
+    },
+    {
+      "group": "AI & Data",
+      "tags": ["GenAI Landing Zone", "Microsoft Foundry", "Azure OpenAI", "Azure Databricks", "MLOps", "Power BI"]
+    },
+    {
+      "group": "Programming & Scripting",
+      "tags": ["PowerShell", "Python", "C# / .NET", "ARM Templates"]
+    }
+  ],
+
+  "softSkills": [
+    "Enterprise Architecture & Roadmap Definition",
+    "Stakeholder & Executive Alignment",
+    "Technical Leadership & Mentorship",
+    "Vendor Management & 3rd Party Coordination",
+    "Agile / Scrum Delivery",
+    "Risk Analysis & Business Continuity Planning",
+    "People Management & Coaching"
+  ],
+
+  "education": [
+    { "degree": "Master of Computer Applications",    "school": "IGNOU, India" },
+    { "degree": "Bachelor of Computer Applications",  "school": "IGNOU, India" },
+    { "degree": "Diploma in Computer Engineering",    "school": "Ambedkar Polytechnic, India" }
+  ],
+
+  "community": [
+    "Microsoft Azure Cloud Leader Group Member",
+    "Founder – AzureDevOpsPro, AzureTalk, O365Talk",
+    "AzureDevOpsPro YouTube Channel"
+  ],
+
+  "experience": [
+    {
+      "id": "powerco",
+      "title": "Lead Cloud Architect – Cloud Foundation",
+      "company": "PowerCo SE",
+      "companySub": "Volkswagen Group Technologies",
+      "period": "10/2025 – Present",
+      "isCurrent": true,
+      "location": "Germany",
+      "bullets": [
+        "Lead Cloud Foundation architecture, owning the <strong>design, evolution, and long-term roadmap</strong> of enterprise Azure platforms and shared foundation services.",
+        "Design and architect <strong>Azure Landing Zones</strong> and core foundation services using Microsoft Defender for Cloud, Microsoft Entra ID, Azure Sentinel (SIEM), Virtual Networks, and Azure-native governance and security controls.",
+        "Architect and enable <strong>Platform Engineering</strong> capabilities using DevOps and GitOps methodologies, delivering secure, scalable, and repeatable deployments through Infrastructure as Code (Terraform / Azure Bicep) and CI/CD pipelines.",
+        "Design and architect a <strong>GenAI Landing Zone</strong> based on Microsoft Foundry, defining enterprise-ready patterns for identity, networking, data access, security, and governance for AI workloads.",
+        "Define and drive execution of the <strong>Cloud Foundation roadmap</strong>, balancing security, developer experience, scalability, compliance, and cost optimization (FinOps).",
+        "Work closely with <strong>third-party vendors and system integrators</strong>, coordinating architecture design, development activities, technical alignment, and delivery planning.",
+        "Align Cloud Foundation strategy with <strong>senior stakeholders and management</strong>, translating business and product requirements into scalable platform capabilities.",
+        "Collaborate with governance and security bodies (Architecture Review Board, InfoSec) to deliver <strong>compliant, audit-ready, and enterprise-grade</strong> cloud foundations."
+      ]
+    },
+    {
+      "id": "immo",
+      "title": "Cloud & DevOps Architect – Cloud Solutions",
+      "company": "Immo Software AG",
+      "companySub": "Formerly Haufe Lexware Real Estate",
+      "period": "07/2023 – 09/2025",
+      "isCurrent": false,
+      "location": "Germany",
+      "bullets": [
+        "Architected and implemented <strong>one-click IaC deployments</strong> for VM, PaaS, and containerized solutions on Azure.",
+        "Collaborated with the Cloud Foundation Team for <strong>Landing Zone development and deployment</strong> in Azure using IaC.",
+        "Designed and implemented central services: <strong>SSO, APIM, and a developer self-service framework</strong> for application development teams.",
+        "Provided subject matter expertise; defined and implemented best practices for <strong>secure access and deployment</strong> to cloud resources.",
+        "Coordinated with Agile teams to enforce <strong>DevOps practices</strong>: branching strategy, code reviews, and CI/CD feedback loops.",
+        "Collaborated with governance bodies (Architecture Review Board, InfoSec) to deliver <strong>agile and scalable architecture</strong>."
+      ]
+    },
+    {
+      "id": "wenovate",
+      "title": "Senior Cloud & DevOps Architect – Azure Foundation",
+      "company": "Wenovate GmbH",
+      "companySub": "VW Cloud Foundation",
+      "period": "10/2021 – 07/2023",
+      "isCurrent": false,
+      "location": "Germany",
+      "bullets": [
+        "Worked with key stakeholders to define <strong>cloud strategy, products, and services</strong> for the Cloud Foundation Team.",
+        "Architected and implemented <strong>central SIEM (Azure Sentinel)</strong>, new tenant provisioning, and FinOps solutions.",
+        "Developed and maintained an <strong>internal developer platform</strong> using AKS and open-source cloud-native tools for application teams.",
+        "Architected and delivered <strong>Cloud Landing Zone deployments using IaC</strong>, designed for enterprise-scale deployment.",
+        "Led technical planning, integration, cost analysis, and platform supportability across cross-functional teams."
+      ]
+    },
+    {
+      "id": "lam",
+      "title": "DevOps Architect – Data Science COE",
+      "company": "Lam Research",
+      "companySub": "",
+      "period": "04/2020 – 10/2021",
+      "isCurrent": false,
+      "location": "Bangalore, India",
+      "bullets": [
+        "Established <strong>DevOps practices, patterns, and tooling</strong> for Azure Cloud and open-source platforms across the Data Science COE.",
+        "Architected and maintained an internal <strong>DevOps platform using Azure DevOps Services</strong> for data scientists and developers.",
+        "Defined best practices and led adoption of <strong>MLOps patterns</strong> across Data Science COE projects.",
+        "Designed and implemented a <strong>POC MLOps architecture</strong> as a reusable template for ML projects.",
+        "Collaborated with Architecture Review Board and InfoSec to deliver <strong>agile and scalable governance-compliant architecture</strong>.",
+        "Trained and mentored team members on <strong>DevOps and MLOps</strong> to accelerate maturity across teams."
+      ]
+    },
+    {
+      "id": "dell",
+      "title": "Product Architect – Azure Stack Hub",
+      "company": "DellEMC",
+      "companySub": "",
+      "period": "10/2018 – 04/2020",
+      "isCurrent": false,
+      "location": "Bangalore, India",
+      "bullets": [
+        "Architected <strong>build pipelines and CI/CD</strong> implementation for Azure Stack Hub product modules.",
+        "Planned and architected <strong>DevOps toolset migration</strong> plans aligned to product needs and architectural decisions.",
+        "Designed and implemented <strong>DevOps lifecycle</strong> for PowerShell module package development.",
+        "Integrated <strong>application security (DevSecOps)</strong> into software development and CI/CD pipelines."
+      ]
+    },
+    {
+      "id": "ey",
+      "title": "Architect – Data Platform",
+      "company": "Ernst & Young",
+      "companySub": "",
+      "period": "02/2018 – 10/2018",
+      "isCurrent": false,
+      "location": "Bangalore, India",
+      "bullets": [
+        "Architected and provided <strong>solution architecture for Data services</strong> in Azure, working with architects, engineers, and developers.",
+        "Developed <strong>product boilerplate samples and quickstart packages</strong> for enterprise cloud adoption using ARM templates, Python, and C# .NET.",
+        "Designed and proposed <strong>MLOps reference architecture</strong> for Data Science teams."
+      ]
+    },
+    {
+      "id": "cyber",
+      "title": "Senior Engineer – Cloud Platform",
+      "company": "Cyber Group",
+      "companySub": "",
+      "period": "07/2017 – 02/2018",
+      "isCurrent": false,
+      "location": "Noida, India",
+      "bullets": [
+        "Architected, developed, and deployed <strong>one-click SCCM infrastructure</strong> using ARM Templates in Azure.",
+        "Mentored team members on <strong>DevOps practices, PowerShell, ARM Templates, and VSTS</strong>.",
+        "Resolved critical CI/CD and deployment issues across various platforms."
+      ]
+    },
+    {
+      "id": "dxc",
+      "title": "Senior System Engineer – Workplace Automation & Reliability",
+      "company": "DXC Technology",
+      "companySub": "",
+      "period": "01/2010 – 07/2017",
+      "isCurrent": false,
+      "location": "Noida, India",
+      "bullets": [
+        "Developed <strong>CSC FixIT</strong>, a self-healing tool for Windows Desktop using C# .NET.",
+        "Built utilities and tools for <strong>automating AD and Windows administration</strong> tasks using PowerShell, VBS, and .NET.",
+        "Designed and deployed <strong>one-click deployment offerings</strong> for Azure solutions using ARM Template, Azure DevOps, and a Self-Service Portal.",
+        "Trained and mentored team members on automation tools and <strong>DevOps practices</strong>."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Internal Cloud Developer Platform",
+      "tag": "IaC · GitOps · AKS",
+      "description": "Designed and deployed a self-service IaC Cloud Developer Platform. Enabled one-click immutable VM/PaaS/container deployments using Azure Bicep and Azure DevOps. Integrated AKS, GitHub Actions, Azure Functions, and serverless services for end-to-end GitOps."
+    },
+    {
+      "name": "Azure SIEM – Central Security Platform",
+      "tag": "Azure Sentinel · Security",
+      "description": "Architected a centralized SIEM platform using Azure Sentinel. Delivered Sentinel Analytical Rule Package as a Service via an IaC approach, enabling scalable, policy-driven security event management."
+    },
+    {
+      "name": "EY Data Platform Quickstart",
+      "tag": "ARM · Python · C# .NET",
+      "description": "Designed and implemented a Data Platform quickstart with developer-consumable boilerplates using ARM templates, Python, and C# .NET, accelerating enterprise Azure service adoption."
+    },
+    {
+      "name": "OneClick SCCM Deployment",
+      "tag": "ARM · PowerShell DSC",
+      "description": "Designed and implemented a fully automated one-click SCCM infrastructure deployment in Azure using ARM Templates and PowerShell DSC orchestration."
+    }
+  ]
+}
