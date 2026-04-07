@@ -67,4 +67,4 @@ npm run deploy
 
 ## 📄 License
 
-This project is for personal use as a professional resume template.
+MIT
