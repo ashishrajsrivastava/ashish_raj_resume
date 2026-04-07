@@ -44,17 +44,20 @@ The application will be available at `http://localhost:5173`.
 
 ## 📦 Deployment
 
-This project is configured for easy deployment to **GitHub Pages**.
+### Automated Deployment (GitHub Actions)
+The project is configured with GitHub Actions to automatically build and deploy the site whenever you push changes to the `main` branch. 
 
-### One-Command Deploy
+> [!IMPORTANT]
+> Ensure that your repository settings allow GitHub Actions to write to the repository:
+> 1. Go to **Settings** > **Actions** > **General**.
+> 2. Under **Workflow permissions**, select **"Read and write permissions"**.
 
-To build the project and push the `dist/` folder to the `gh-pages` branch, simply run:
-
+### Manual Deployment
+If you need to deploy manually, you can still use the following commands:
 ```bash
 npm run deploy
 ```
-
-*Note: This command automatically runs `npm run build` first via the `predeploy` script.*
+This script will build the project and push the `dist/` folder to the `gh-pages` branch.
 
 ---
 
