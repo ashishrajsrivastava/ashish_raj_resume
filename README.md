@@ -48,9 +48,9 @@ The application will be available at `http://localhost:5173`.
 The project is configured with GitHub Actions to automatically build and deploy the site whenever you push changes to the `main` branch. 
 
 > [!IMPORTANT]
-> Ensure that your repository settings allow GitHub Actions to write to the repository:
-> 1. Go to **Settings** > **Actions** > **General**.
-> 2. Under **Workflow permissions**, select **"Read and write permissions"**.
+> This repository uses the modern **GitHub Actions source** for deployment. You **MUST** update your repository settings:
+> 1. Go to **Settings** > **Pages**.
+> 2. Under **Build and deployment** > **Source**, change from **"Deploy from a branch"** to **"GitHub Actions"**.
 
 ### Manual Deployment
 If you need to deploy manually, you can still use the following commands:
