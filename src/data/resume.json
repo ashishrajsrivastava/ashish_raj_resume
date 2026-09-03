@@ -1,8 +1,8 @@
 {
   "personal": {
     "name": "Ashish Raj",
-    "title": "Lead Cloud Architect & Platform Engineering Leader",
-    "summary": "Cloud & DevOps advocate with <strong>16+ years</strong> of experience delivering enterprise Azure platforms, Cloud Foundation architecture, Platform Engineering, GenAI Landing Zones, and secure scalable infrastructure for global organizations. Passionate about bridging technology strategy with business outcomes.",
+    "title": "Enterprise Architect – Cloud, AI & Infrastructure",
+    "summary": "Enterprise technology architect with <strong>16+ years</strong> of experience defining technology strategy, target architectures, and engineering roadmaps across cloud, networking, security, AI infrastructure, and observability for global organizations. Currently leading Cloud & AI Foundation architecture — establishing enterprise AI platforms (Microsoft Foundry, Azure Databricks) alongside cloud foundation services at production scale. Proven track record in platform consolidation, technology standardization, and cross-domain alignment within federated enterprises.",
     "contact": {
       "location": "Germany",
       "linkedin": {
@@ -41,34 +41,58 @@
   ],
   "skills": [
     {
-      "group": "Cloud Architecture",
+      "group": "Enterprise & Cloud Architecture",
       "tags": [
+        "Enterprise Architecture",
+        "Technology Roadmaps",
         "Azure Landing Zones",
         "Cloud Foundation",
         "Azure Well-Architected Framework",
-        "Enterprise Architecture",
         "Cloud Adoption Framework",
+        "Platform Consolidation",
         "FinOps"
       ]
     },
     {
-      "group": "Azure Platform",
+      "group": "Cloud, Network & Compute",
       "tags": [
         "Microsoft Entra ID",
-        "Microsoft Defender for Cloud",
-        "Azure Sentinel (SIEM)",
-        "Azure Policy",
         "AKS",
         "Azure Container Apps",
         "APIM",
-        "Azure Monitor",
         "Virtual Network",
         "Express Route",
-        "Azure OpenAI / Foundry"
+        "Azure Policy",
+        "Azure Monitor"
       ]
     },
     {
-      "group": "Platform Engineering & DevOps",
+      "group": "Security, Observability & Resilience",
+      "tags": [
+        "Zero Trust Architecture",
+        "Microsoft Defender for Cloud",
+        "Azure Sentinel (SIEM)",
+        "OWASP / DevSecOps",
+        "MS Threat Modeling",
+        "Azure RBAC",
+        "Azure Monitor",
+        "ITIL"
+      ]
+    },
+    {
+      "group": "AI & Data Infrastructure",
+      "tags": [
+        "AI Foundation Architecture",
+        "Microsoft Foundry",
+        "Azure OpenAI",
+        "Azure Databricks",
+        "GenAI Landing Zone",
+        "MLOps",
+        "Power BI"
+      ]
+    },
+    {
+      "group": "Engineering Platforms & DevOps",
       "tags": [
         "Terraform",
         "Azure Bicep",
@@ -78,27 +102,6 @@
         "CI/CD Pipelines",
         "Docker",
         "Kubernetes"
-      ]
-    },
-    {
-      "group": "Security & Governance",
-      "tags": [
-        "Zero Trust Architecture",
-        "OWASP / DevSecOps",
-        "MS Threat Modeling",
-        "Azure RBAC",
-        "ITIL"
-      ]
-    },
-    {
-      "group": "AI & Data",
-      "tags": [
-        "GenAI Landing Zone",
-        "Microsoft Foundry",
-        "Azure OpenAI",
-        "Azure Databricks",
-        "MLOps",
-        "Power BI"
       ]
     },
     {
@@ -112,13 +115,14 @@
     }
   ],
   "softSkills": [
-    "Enterprise Architecture & Roadmap Definition",
-    "Stakeholder & Executive Alignment",
+    "Enterprise Architecture & Technology Roadmap Definition",
+    "Cross-Domain Architecture Facilitation & Moderation",
+    "Stakeholder & Executive-Level Communication",
+    "Technology Standardization & Platform Consolidation",
     "Technical Leadership & Mentorship",
     "Vendor Management & 3rd Party Coordination",
     "Agile / Scrum Delivery",
-    "Risk Analysis & Business Continuity Planning",
-    "People Management & Coaching"
+    "Risk Analysis & Business Continuity Planning"
   ],
   "education": [
     {
@@ -142,21 +146,24 @@
   "experience": [
     {
       "id": "powerco",
-      "title": "Lead Cloud Architect – Cloud Foundation",
+      "title": "Lead Architect – Cloud & AI Foundation",
       "company": "PowerCo SE",
       "companySub": "Volkswagen Group Technologies",
       "period": "10/2025 – Present",
       "isCurrent": true,
       "location": "Germany",
       "bullets": [
-        "Lead Cloud Foundation architecture, owning the <strong>design, evolution, and long-term roadmap</strong> of enterprise Azure platforms and shared foundation services.",
+        "Lead architecture of Cloud & AI Foundation, owning the <strong>design, evolution, and long-term technology roadmap</strong> of enterprise Azure platforms, AI infrastructure, and shared foundation services.",
+        "Define <strong>target technology architectures and reference architectures</strong> across cloud, runtime, networking, and engineering platforms — establishing golden paths and technology standards for engineering teams.",
+        "Architect the <strong>AI Foundation</strong> for the organization, establishing Microsoft Foundry as the enterprise AI platform and Azure Databricks as the Data platform, defining patterns for identity, networking, data access, security, and governance for AI workloads.",
         "Design and architect <strong>Azure Landing Zones</strong> and core foundation services using Microsoft Defender for Cloud, Microsoft Entra ID, Azure Sentinel (SIEM), Virtual Networks, and Azure-native governance and security controls.",
         "Architect and enable <strong>Platform Engineering</strong> capabilities using DevOps and GitOps methodologies, delivering secure, scalable, and repeatable deployments through Infrastructure as Code (Terraform / Azure Bicep) and CI/CD pipelines.",
-        "Design and architect a <strong>GenAI Landing Zone</strong> based on Microsoft Foundry, defining enterprise-ready patterns for identity, networking, data access, security, and governance for AI workloads.",
-        "Define and drive execution of the <strong>Cloud Foundation roadmap</strong>, balancing security, developer experience, scalability, compliance, and cost optimization (FinOps).",
-        "Work closely with <strong>third-party vendors and system integrators</strong>, coordinating architecture design, development activities, technical alignment, and delivery planning.",
-        "Align Cloud Foundation strategy with <strong>senior stakeholders and management</strong>, translating business and product requirements into scalable platform capabilities.",
-        "Collaborate with governance and security bodies (Architecture Review Board, InfoSec) to deliver <strong>compliant, audit-ready, and enterprise-grade</strong> cloud foundations."
+        "Moderate <strong>cross-domain technology decisions</strong>, aligning engineering, network, security, data, and AI teams toward a unified technology direction.",
+        "Ensure the technology foundation supports <strong>AI readiness, resilience, sovereignty, and cloud economics</strong> (FinOps), balancing innovation with operational stability.",
+        "Translate <strong>business ambition into technology roadmaps</strong>, aligning Cloud & AI Foundation strategy with senior stakeholders and management.",
+        "Drive <strong>platform consolidation and technical debt reduction</strong> across the technology landscape, setting standards and deciding on justified exceptions.",
+        "Work closely with <strong>third-party vendors and system integrators</strong>, coordinating architecture design, technical alignment, and delivery planning.",
+        "Collaborate with governance and security bodies (Architecture Review Board, InfoSec) to deliver <strong>compliant, audit-ready, and enterprise-grade</strong> cloud and AI foundations."
       ]
     },
     {
@@ -272,12 +279,14 @@
     {
       "title": "Demystifying Azure DevOps Services",
       "publisher": "BPB Publications",
-      "image": "book1.jpg"
+      "image": "book1.jpg",
+      "url": "https://bpbonline.com/products/demystifying-azure-devops-services"
     },
     {
       "title": "Architecting and implementing DevOps for infrastructure management in Azure",
       "publisher": "Leanpub",
-      "image": "book2.jpg"
+      "image": "book2.jpg",
+      "url": "https://leanpub.com/devopsinazure"
     }
   ],
   "projects": [

@@ -25,17 +25,27 @@ const Books = ({ books }) => {
         Books &amp; Publications
       </h2>
       <div className="books-grid">
-        {books.map((book, index) => (
-          <div className="book-card" key={index}>
-            {book.image && imageMap[book.image] && (
-              <img src={imageMap[book.image]} alt={book.title} className="book-thumbnail" />
-            )}
-            <div className="book-info">
-              <h3 className="book-title">{book.title}</h3>
-              <p className="book-publisher">Published by {book.publisher}</p>
+        {books.map((book, index) => {
+          const card = (
+            <div className="book-card" key={index}>
+              {book.image && imageMap[book.image] && (
+                <img src={imageMap[book.image]} alt={book.title} className="book-thumbnail" />
+              )}
+              <div className="book-info">
+                <h3 className="book-title">{book.title}</h3>
+                <p className="book-publisher">Published by {book.publisher}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+
+          return book.url ? (
+            <a href={book.url} target="_blank" rel="noopener noreferrer" key={index} className="book-card-link">
+              {card}
+            </a>
+          ) : (
+            card
+          );
+        })}
       </div>
     </section>
   );

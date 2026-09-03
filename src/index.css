@@ -517,6 +517,12 @@ ul { list-style: none; }
   grid-template-columns: 1fr;
   gap: 14px;
 }
+.book-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
 .book-card {
   display: flex;
   flex-direction: row;
